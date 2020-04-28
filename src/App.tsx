@@ -16,7 +16,7 @@ const App = () => {
       link: "#"
     },
     links: [{
-      name: "Doanload",
+      name: "Download",
       link: "#"
     }, {
       name: "Github",
