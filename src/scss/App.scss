@@ -1,9 +1,10 @@
-@import './Mixins.scss';
+@import "./Mixins.scss";
+@import "~bootstrap/scss/bootstrap.scss";
 
 $sm-min: 560px;
 $md-min: 768px;
 
-$clearBlack:hsla(0, 0, 0, 0.45);
+$clearBlack: hsla(0, 0, 0, 0.45);
 
 html {
   scroll-behavior: smooth;
@@ -40,10 +41,6 @@ html {
   }
 }
 
-
-
-
-
 #laptop {
   z-index: -1;
   margin: auto;
@@ -79,7 +76,6 @@ html {
     font-size: 6em;
     margin-bottom: 3vw;
   }
-
 }
 
 #download-btn {
@@ -90,8 +86,6 @@ html {
 }
 
 .detail-section {
-
-
   width: 100%;
   min-height: 100vh;
   background-color: #0e0e0e;
@@ -109,24 +103,23 @@ html {
     display: block;
     width: 100%;
 
-    p{
+    p {
       margin-top: 5%;
       width: 100%;
       float: left;
-      @include break($md-min){
+      @include break($md-min) {
         width: 33%;
       }
     }
-    img{
+    img {
       width: 100%;
       float: right;
       border-radius: 5px;
-      @include break($md-min){
+      @include break($md-min) {
         width: 50%;
       }
     }
   }
-
 
   .sec-2 {
     margin-top: 20%;
@@ -134,40 +127,40 @@ html {
     display: block;
     width: 100%;
 
-    p{
+    p {
       margin-top: 5%;
       width: 100%;
       float: right;
-      @include break($md-min){
+      @include break($md-min) {
         width: 33%;
       }
     }
-    img{
+    img {
       width: 100%;
       float: left;
 
       border-radius: 5px;
-      @include break($md-min){
+      @include break($md-min) {
         width: 50%;
       }
     }
   }
 }
 
-#footer{
+#footer {
   background-color: black;
   min-height: 100vh;
   color: white;
   text-align: center;
   padding: 10%;
-  h3{
+  h3 {
     font-weight: 200;
     margin-top: 20%;
-    @include break($md-min){
+    @include break($md-min) {
       margin-top: 10%;
     }
   }
-  h1{
+  h1 {
     margin-bottom: 5%;
   }
 }

@@ -1,10 +1,5 @@
 import React from 'react';
-import 'normalize.css';
 import './scss/App.scss';
-import 'jquery/dist/jquery';
-import 'popper.js/dist/umd/popper';
-import 'bootstrap/dist/css/bootstrap.css';
-import 'bootstrap/dist/js/bootstrap.bundle';
 import NavBar from './Components/NavBar';
 import LaotopMockup from './Components/LaptopMockup';
 import FeatureSection from './Components/FeatureSection';
